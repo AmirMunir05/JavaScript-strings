@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+</head>
+<body style="background-color: black;color: white;">
+    <div class="intro">
+    <h1>JavaScript Strings</h1>
+<p>You can use quotes inside a string, as long as they don't match the quotes surrounding the string.</p>
+
+<pre>
+    // Ways to write a string
+let answer1 = "It's alright";
+let answer2 = "He is called 'Johnny'";
+let answer3 = 'He is called "Johnny"'; 
+
+document.getElementById("demo").innerHTML =
+answer1 + "<br>" + answer2 + "<br>" + answer3; 
+</pre>
+<h3>Output:-</h3>
+<p id="demo"></p>
+
+<script>
+    // Ways to write a string
+let answer1 = "It's alright";
+let answer2 = "He is called 'Johnny'";
+let answer3 = 'He is called "Johnny"'; 
+
+document.getElementById("demo").innerHTML =
+answer1 + "<br>" + answer2 + "<br>" + answer3; 
+</script>
+</div>
+
+
+
+<div class="lenght" style="border: 2px solid green;padding: 10px;">
+<h3>String's length</h3>
+<pre>let man = "Ansar" 
+    document.getElementById("ash").innerHTML=man.length  // It will count the letters of value
+     // It will print the letters of value 
+    document.getElementById("ash0").innerHTML=man[0]
+    document.getElementById("ash1").innerHTML=man[1]
+    document.getElementById("ash2").innerHTML=man[2]
+    document.getElementById("ash3").innerHTML=man[3]
+    document.getElementById("ash4").innerHTML=man[4]
+    // NOTE : Opening and closing quotes always same.</pre>
+    <h3> Output:-</h3>
+<p id="ash"></p>
+<p id="ash0"></p>
+<p id="ash1"></p>
+<p id="ash2"></p>
+<p id="ash3"></p>
+<p id="ash4"></p>
+
+
+<script>
+//  String's length
+ 
+let man = "Ansar" 
+  document.getElementById("ash").innerHTML=man.length  // It will count the letters of value
+   // It will print the letters of value 
+  document.getElementById("ash0").innerHTML=man[0]
+  document.getElementById("ash1").innerHTML=man[1]
+  document.getElementById("ash2").innerHTML=man[2]
+  document.getElementById("ash3").innerHTML=man[3]
+  document.getElementById("ash4").innerHTML=man[4]
+  // NOTE : Opening and closing quotes always same.
+</script>
+</div>
+
+
+
+<div class="temp-literals" style="border: 2px solid green;padding: 10px;margin-top: 1rem;">
+    <h3>Template literals</h3>
+<pre>   // 3 . Templates literals
+    //Template literals use `backtics` to make a string 
+    friend1 = 'Hussnain'
+    friend2 = "Wahab"
+    // Now I want to print that (Wahab is a friend of Hussnain )
+    let sentence = `${friend2}  is a friend of ${friend1}`
+    document.getElementById("temp").innerHTML=sentence
+    // I can do it with the help of template literals like above 
+    </pre>
+    <h3>Output:-</h3>
+    <p id="temp"></p>
+    <script>
+        // 3 . Templates literals
+//Template literals use `backtics` to make a string 
+friend1 = 'Hussnain'
+friend2 = "Wahab"
+// Now I want to print that (Wahab is a friend of Hussnain )
+let sentence = `${friend2}  is a friend of ${friend1}`
+document.getElementById("temp").innerHTML=sentence
+// I can do it with the help of template literals like above 
+
+    </script>
+</div>
+
+
+
+<div class="ESC" style="border: 2px solid green;padding: 10px;margin-top: 1rem;">
+    <h1>Escape Sequence Character</h1>
+    <pre>
+        let doll = 'Ansa\'s toys'
+document.getElementById("seo1").innerHTML=doll
+document.getElementById("seo1.1").innerHTML=doll.length
+
+let fruit = 'Blue\nberry'
+document.getElementById("seo2").innerHTML=fruit
+document.getElementById("seo2.1").innerHTML=fruit.length
+
+    </pre>
+<h3>Output:-</h3>
+    <p id="seo1"></p>
+    <p id="seo1.1"></p>
+    <p>/n starts with a new line</p>
+    <p id="seo2"></p>
+    <p id="seo2.1"></p>
+
+<script>
+
+// Escape Sequence Character
+let doll = 'Ansa\'s toys'
+document.getElementById("seo1").innerHTML=doll
+document.getElementById("seo1.1").innerHTML=doll.length
+
+let fruit = "Blue\nberry"
+document.getElementById("seo2").innerHTML=fruit
+document.getElementById("seo2.1").innerHTML=fruit.length
+
+</script>
+</div>
+</body>
+</html>
+
+
+
